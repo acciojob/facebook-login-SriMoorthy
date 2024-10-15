@@ -1,1 +1,92 @@
 /*  your css code here. If applicable */
+/* Styling the body */
+body {
+    background-color: #f6f6f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Container for the two sections */
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+/* Left section styling */
+.left {
+    width: 450px;
+    margin-top: 70px;
+    display: inline-block;
+}
+
+.left .logo {
+    width: 300px;
+}
+
+.left p {
+    font-size: 20px;
+    color: #333;
+    margin-top: 20px;
+}
+
+/* Right section styling */
+.right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Form styling */
+form {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #ccc;
+    gap: 10px;
+    width: 300px;
+}
+
+input {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+/* Log in button styling */
+button[type="submit"] {
+    background-color: #1877f2;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 20px;
+    width: 100%;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Forgotten account link styling */
+a {
+    text-align: center;
+    color: #1877f2;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+/* Create new account button styling */
+.signup {
+    background-color: #42b72a;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    width: 100%;
+    font-size: 16px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
